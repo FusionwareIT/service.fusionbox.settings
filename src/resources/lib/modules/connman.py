@@ -303,7 +303,7 @@ class connmanService(object):
                 10: {'Timeservers.Configuration': 'Timeservers'},
                 }
             self.oe = oeMain
-            self.winOeCon = oeWindows.mainWindow('service-LibreELEC-Settings-mainWindow.xml', self.oe.__cwd__, 'Default', oeMain=oeMain, isChild=True)
+            self.winOeCon = oeWindows.mainWindow('service-FusionBox-Settings-mainWindow.xml', self.oe.__cwd__, 'Default', oeMain=oeMain, isChild=True)
             self.servicePath = servicePath
             self.oe.dictModules['connmanNetworkConfig'] = self
             self.service = dbus.Interface(self.oe.dbusSystemBus.get_object('net.connman', servicePath), 'net.connman.Service')
@@ -540,7 +540,7 @@ class connman:
                         'TetheringIdentifier': {
                             'order': 3,
                             'name': 32198,
-                            'value': 'LibreELEC-AP',
+                            'value': 'FusionBox-AP',
                             'action': 'set_technologie',
                             'type': 'text',
                             'dbus': 'String',

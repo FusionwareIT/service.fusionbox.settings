@@ -1,7 +1,7 @@
 # Kodi Media Center language file
 # Addon Name: @DISTRONAME@ Configuration
-# Addon id: service.libreelec.settings
-# Addon Provider: LibreELEC
+# Addon id: service.fusionbox.settings
+# Addon Provider: FusionBox
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Addons\n"

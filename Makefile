@@ -24,9 +24,9 @@
 #  OpenELEC Licensing  <license@openelec.tv>  http://www.openelec.tv
 ################################################################################
 
-ADDON_NAME=service.libreelec.settings
+ADDON_NAME=service.fusionbox.settings
 ADDON_VERSION=0.8.8
-DISTRONAME:=LibreELEC
+DISTRONAME:=FusionBox
 
 SHELL=/bin/bash
 BUILDDIR=build
